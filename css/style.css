@@ -1,0 +1,58 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  background-color: #fafafa;
+}
+
+.link {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  font-family: inherit;
+}
+/* ========================================= /main setins ================================= */
+
+@media screen and (min-width: 320px) {
+  .container {
+    width: 320px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 767px) {
+}
+
+/* ========================================== header mobile =================================== */
+
+/* ========================================== /header mobile =================================== */
