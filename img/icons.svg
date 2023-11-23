@@ -38,5 +38,8 @@
     <symbol id="icon-burger" viewBox="0 0 32 32">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.286" d="M4 16h24M4 8h24M4 24h24"/>
     </symbol>
+    <symbol id="icon-arow" viewBox="0 0 48 32">
+      <path fill="#ecd979" d="M40.165 18.935a64.374 64.374 0 0 1-.506-5.235c-.033-1.56.026-2.91.178-4.05L1.897 31.555.102 28.446l37.94-21.905c-1.092-.488-2.305-1.137-3.639-1.945a73.191 73.191 0 0 1-4.238-2.981L32.443.3c4.813 2.024 9.215 3.036 13.206 3.035l.769 1.332c-2.025 3.406-3.35 7.724-3.975 12.954l-2.278 1.315z" style="fill:var(--color1, #ecd979)"/>
+    </symbol>
   </defs>
 </svg>

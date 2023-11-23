@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet"
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
+    <!-- <header>
       <div class="header-container container">
         <nav class="header-nav">
           <a class="header-logo link" href="./index.html">SIMPLY CHOCOLATE</a>
@@ -45,9 +45,59 @@
           </svg>
         </button>
       </div>
-    </header>
+    </header> -->
     <main>
-      <section class="hero"></section>
+      <section class="hero">
+        <div class="hero-container container">
+          <h1 class="hero-title">
+            Reviving the traditional
+            <span class="hero-custom-title">Ukrainian</span> artistry in every
+            stitch.
+          </h1>
+          <a class="hero-link link" href="#order"
+            >Order
+            <svg class="hero-icon" width="26" height="10">
+              <use href="./img/icons.svg#icon-arow"></use>
+            </svg>
+          </a>
+
+          <div class="hero-img-container">
+            <img
+              class="hero-main-img"
+              srcset="
+                ./img/girl-mobile.jpg    335w,
+                ./img/girl-tablet.jpg    413w,
+                ./img/girl-desk.jpg      392w,
+                ./img/girl-mobile@2x.jpg 670w,
+                ./img/girl-tablet@2x.jpg 826w,
+                ./img/girl-desk@2x.jpg   784w
+              "
+              sizes="(min-width: 1280px) 392px, (min-width: 768px) 413px, (max-width: 767px) 335px"
+              src="./img/girl-mobile.jpg"
+              alt="girl in grey vyshivanka"
+            />
+
+            <img
+              class="hero-sub-img"
+              srcset="./img/rysh@2x.png 2x"
+              src="./img/rysh.png"
+              alt="ornament vyshivanka"
+              width="157"
+            />
+          </div>
+          <div class="hero-label">
+            <img
+              class="hero-label-img"
+              srcset="./img/star@2x.jpg 2x"
+              src="./img/star.jpg"
+              alt="star label"
+              width="52"
+              height="51"
+            />
+            <p class="hero-text">all embroidery is made by hand</p>
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
