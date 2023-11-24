@@ -94,7 +94,7 @@ input {
   margin-bottom: 40px;
 }
 
-.hero-icon {
+.hero-icon-row {
   margin-left: 10px;
 }
 
@@ -119,11 +119,14 @@ input {
     font-weight: 400;
     line-height: 1.19;
     letter-spacing: -0.03em;
+    padding-top: 26px;
+    margin-bottom: 40px;
   }
 
   .hero-container {
     padding-top: 80px;
     padding-bottom: 100px;
+    position: relative;
   }
 
   .hero-link {
@@ -142,9 +145,69 @@ input {
     height: 50px;
   }
 
-  .hero-img-container {
+  .hero-sub-img {
+    position: absolute;
+    right: 32px;
+    top: 891px;
+  }
+
+  .hero-label {
+    width: 115px;
+    text-align: center;
+    position: absolute;
+    right: 32px;
+  }
+
+  .hero-text {
+    color: rgba(252, 249, 249, 0.4);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+  }
+}
+/* ======================================== desk ===================================================== */
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding: 0 100px;
+  }
+  .hero-container {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    position: relative;
+  }
+  .hero-component {
     display: flex;
-    justify-content: space-between;
-    align-items: end;
+    justify-content: left;
+    flex-direction: row-reverse;
+    gap: 40px;
+  }
+
+  .hero-title {
+    width: 518px;
+    color: #fcf9f9;
+    font-family: Manrope;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 1.19;
+    letter-spacing: -0.03em;
+    padding-top: 94px;
+    margin-bottom: 40px;
+  }
+
+  .hero-label {
+    width: 115px;
+    text-align: center;
+    position: absolute;
+    right: 100px;
+    top: 114px;
+  }
+
+  .hero-sub-img {
+    position: absolute;
+    right: 100px;
+    top: 534px;
   }
 }
