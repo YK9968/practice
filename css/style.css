@@ -84,8 +84,10 @@ input {
   letter-spacing: -0.04em;
   text-transform: uppercase;
   padding: 14px 36px;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   text-align: center;
+  gap: 10px;
   min-width: 154.5px;
   height: 49px;
   border-radius: 15px;
@@ -95,7 +97,8 @@ input {
 }
 
 .hero-icon-row {
-  margin-left: 10px;
+  fill: #ecd979;
+  transform: rotate(330deg);
 }
 
 @media screen and (max-width: 767px) {
@@ -146,9 +149,16 @@ input {
   }
 
   .hero-sub-img {
-    position: absolute;
-    right: 32px;
-    top: 891px;
+    width: 139px;
+    height: 98.5px;
+    border-radius: 50% / 100% 100% 0 0;
+    overflow: hidden;
+  }
+
+  .test-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
   }
 
   .hero-label {
@@ -208,6 +218,5 @@ input {
   .hero-sub-img {
     position: absolute;
     right: 100px;
-    top: 534px;
   }
 }
