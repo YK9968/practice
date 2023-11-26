@@ -181,7 +181,6 @@ input {
     line-height: normal;
     letter-spacing: -0.04em;
   }
-  
 }
 /* ======================================== desk ===================================================== */
 @media screen and (min-width: 1280px) {
@@ -237,5 +236,23 @@ input {
   .hero-sub-img {
     position: absolute;
     right: 100px;
+  }
+}
+/* ======================================= desk 1440 ========================= */
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+
+  .hero-title {
+    padding-top: 66px;
+    width: 630px;
+    font-size: 64px;
+    line-height: 1.16;
+    margin-right: 61px;
+  }
+
+  .hero-label {
+    top: 166px;
   }
 }
